@@ -1,0 +1,8 @@
+{
+  "更多配置请查看": "https://prettier.io/docs/en/options",
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "semi": false,
+  "singleQuote": true,
+  "arrowParens": "avoid",
+  "tabWidth": 2
+}

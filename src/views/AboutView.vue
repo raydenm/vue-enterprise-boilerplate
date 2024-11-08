@@ -1,0 +1,22 @@
+<template>
+  <div class="about">
+    <h1 class="a1">This is an about page</h1>
+    <Input />
+  </div>
+</template>
+
+<style lang="less" scoped>
+@media (min-width: 1024px) {
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.about {
+  .a1 {
+    color: red;
+  }
+}
+</style>

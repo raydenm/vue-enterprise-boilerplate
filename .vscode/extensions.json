@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    // "Selemondev.shadcn-vue",
+    "omkarbhede.tailwindcss-tune"
+  ]
+}

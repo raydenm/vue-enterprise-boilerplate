@@ -1,0 +1,61 @@
+{
+  "name": "vue-enterprise-boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint .",
+    "format": "prettier --write",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.2.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.454.0",
+    "pinia": "^2.2.4",
+    "radix-vue": "^1.9.8",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.17.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "@vue/eslint-config-typescript": "^14.1.1",
+    "@vue/tsconfig": "^0.5.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.13.0",
+    "eslint-plugin-vue": "^9.29.0",
+    "husky": "^9.1.6",
+    "less": "^4.2.0",
+    "lint-staged": "^15.2.10",
+    "npm-run-all2": "^7.0.1",
+    "postcss": "^8.4.47",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.14",
+    "typescript": "~5.6.0",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.6"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "pnpm lint",
+      "pnpm prettier"
+    ]
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+}
