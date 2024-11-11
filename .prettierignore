@@ -1,0 +1,25 @@
+# 忽略生成的目录和打包输出
+node_modules/
+dist/
+build/
+coverage/
+
+# 忽略环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 忽略打包配置文件或日志文件
+*.log
+*.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 忽略特定文件类型
+*.min.js
+*.min.css
+
+# 忽略特定文件夹或文件
+public/
+static/

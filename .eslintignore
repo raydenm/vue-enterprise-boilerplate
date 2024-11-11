@@ -1,0 +1,13 @@
+# 忽略构建文件夹
+dist/
+node_modules/
+
+# 忽略自动生成的文件
+src/auto-imports.d.ts
+src/components.d.ts
+
+# 忽略所有生成的 CSS 文件
+**/*.css
+
+# 忽略特定文件夹
+public/
