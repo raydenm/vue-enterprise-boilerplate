@@ -30,3 +30,7 @@ coverage
 *.tsbuildinfo
 
 .env
+
+test-results/
+
+*storybook.log
