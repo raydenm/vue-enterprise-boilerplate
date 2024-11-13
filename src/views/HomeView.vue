@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { FEATURES_LIST } from '../config/features-list.ts'
+import { FEATURES_LIST } from '../config/features-list'
+import ThemeButton from '@/layouts/ThemeButton.vue'
 </script>
 
 <template>
@@ -14,13 +15,26 @@ import { FEATURES_LIST } from '../config/features-list.ts'
           Vue Enterprise Boilerplate
         </h1>
         <p
-          className="mt-10 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl"
+          className="mt-10 font-light max-w-2xl text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl"
         >
           基于 Vue 和 Vite
           的前端脚手架，旨在提高开发效率和代码规范性，提供了多个集成工具和库，帮助开发者快速搭建现代化前端应用。通过集成的工具链，开发者可以实现自动化的代码格式化、类型检查、组件库展示、自动导入等功能，为前端开发提供了一个一致、高效的开发环境。
         </p>
-        <Button variant="outline"> Github </Button>
-        <Button class="ml-3 w-20">部署</Button>
+        <div class="flex items-center justify-center gap-4">
+          <Button variant="outline">
+            <a href="https://github.com/raydenm/vue-enterprise-boilerplate">
+              Github
+            </a>
+          </Button>
+          <Button class="w-20">
+            <a
+              href="https://vercel.com/new/git/external?repository-url=https://github.com/raydenm/vue-enterprise-boilerplate"
+            >
+              部署
+            </a>
+          </Button>
+          <ThemeButton></ThemeButton>
+        </div>
       </div>
     </div>
   </section>
