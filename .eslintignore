@@ -11,3 +11,8 @@ src/components.d.ts
 
 # 忽略特定文件夹
 public/
+
+# 忽略所有 .js 文件
+**/*.json
+**/*.config.js
+**/*.config.ts

@@ -1,80 +1,82 @@
 # vue-enterprise-boilerplate
 
-### 项目介绍
+[中文文档](./README_CN.md)
 
-`vue-enterprise-boilerplate` 是一个 Vue 企业级脚手架项目，集成了现代化的前端开发工具和最佳实践。该脚手架旨在提供高效、可维护的开发环境，使团队能够快速构建、测试和发布高质量的 Vue 应用程序。
+### Project Introduction
 
-### 项目功能介绍
+`vue-enterprise-boilerplate` is a Vue enterprise-grade boilerplate that integrates modern front-end development tools and best practices. This template is designed to provide an efficient and maintainable development environment, allowing teams to quickly build, test, and deploy high-quality Vue applications.
 
-| 功能                  | 功能描述                                                                        |
-| --------------------- | ------------------------------------------------------------------------------- |
-| **Tailwind CSS**      | 集成 Tailwind CSS，为快速构建和定制化的响应式设计提供支持。                     |
-| **ESLint & Prettier** | 使用 ESLint 进行代码规范检查，Prettier 自动格式化代码，确保团队统一的代码风格。 |
-| **TypeScript**        | 支持 TypeScript，增强代码的类型安全性和可维护性。                               |
-| **Shadcn-vue**        | 使用 Shadcn-vue 组件库，快速构建现代化的 UI 界面。                              |
-| **Storybook**         | 集成 Storybook，便于独立开发和调试组件，提高组件复用性和可维护性。              |
-| **Vite**              | 采用 Vite 作为构建工具，支持极速开发环境和模块热更新。                          |
-| **Vitest**            | 使用 Vitest 进行单元测试，提供快速、轻量的测试框架。                            |
-| **Commitlint**        | 使用 Commitlint 检查提交信息格式，保持项目提交记录清晰有序。                    |
-| **Lint-staged**       | 在代码提交前运行代码检查和格式化，提高代码质量。                                |
-| **VueDevTools**       | 集成 VueDevTools，便于调试和分析应用状态。                                      |
-| **AutoImport**        | 自动导入依赖和组件，减少手动引入操作，提升开发效率。                            |
-| **Pinia**             | 集成 Pinia 状态管理库，便于管理应用的全局状态。                                 |
+### Features
 
-### 安装与运行
+| Feature               | Description                                                                                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Tailwind CSS**      | Integrates Tailwind CSS to support fast and customizable responsive design.                                                  |
+| **ESLint & Prettier** | Uses ESLint for code linting and Prettier for auto-formatting to maintain consistent coding style across the team.           |
+| **TypeScript**        | Supports TypeScript, enhancing code type safety and maintainability.                                                         |
+| **Shadcn-vue**        | Utilizes Shadcn-vue UI library for quickly building modern UI components.                                                    |
+| **Storybook**         | Integrated with Storybook for isolated component development and debugging, enhancing reusability and maintainability.       |
+| **Vite**              | Uses Vite as the build tool, providing a fast development environment and hot module replacement.                            |
+| **Vitest**            | Includes Vitest for unit testing, offering a fast and lightweight testing framework.                                         |
+| **Commitlint**        | Ensures commit messages follow a standardized format for organized commit history.                                           |
+| **Lint-staged**       | Runs code linting and formatting before commits to improve code quality.                                                     |
+| **VueDevTools**       | Integrated VueDevTools for easy debugging and application state analysis.                                                    |
+| **AutoImport**        | Automatically imports dependencies and components, reducing the need for manual imports and boosting development efficiency. |
+| **Pinia**             | Integrated Pinia for state management, making it easy to handle global application state.                                    |
 
-请按照以下步骤克隆并运行该项目：
+### Installation & Running
 
-1. 克隆项目代码：
+Follow these steps to clone and run this project:
+
+1. Clone the project repository:
 
    ```bash
    git clone https://github.com/raydenm/vue-enterprise-boilerplate.git
    ```
 
-2. 进入项目目录：
+2. Navigate into the project directory:
 
    ```bash
    cd vue-enterprise-boilerplate
    ```
 
-3. 安装项目依赖：
+3. Install the dependencies:
 
    ```bash
    pnpm i
    ```
 
-4. 启动开发服务器：
+4. Start the development server:
 
    ```bash
    pnpm dev
    ```
 
-项目启动后，您可以在浏览器中访问 `http://localhost:5173` 查看应用。
+After starting the project, you can view the application in your browser at `http://localhost:5173`.
 
-### 使用 Storybook
+### Using Storybook
 
-本项目支持 [Storybook](https://storybook.js.org/) ，用于独立开发和调试组件。使用以下命令启动 Storybook：
+This project supports [Storybook](https://storybook.js.org/) for isolated component development and debugging. Start Storybook with the following command:
 
 ```bash
 pnpm storybook
 ```
 
-### 运行测试
+### Running Tests
 
-使用 [Vitest](https://vitest.dev/) 进行单元测试，运行以下命令执行测试：
+Use [Vitest](https://vitest.dev/) for unit testing. Run the following command to execute tests:
 
 ```bash
 pnpm test
 ```
 
-### 贡献
+### Contributing
 
-欢迎对 `vue-enterprise-boilerplate` 项目的改进和贡献！如果您发现了问题或有改进建议，欢迎提交 Issue 或 PR。在提交 PR 之前，请确保所有测试通过并遵循代码规范。
+We welcome contributions to `vue-enterprise-boilerplate`! If you find any issues or have suggestions for improvement, feel free to submit an Issue or a PR. Before submitting a PR, please ensure all tests pass and follow the code standards.
 
-### 许可证
+### License
 
-本项目基于 [MIT 许可证](LICENSE) 开源。
+This project is open-sourced under the [MIT License](LICENSE).
 
-### 联系方式
+### Contact
 
-如果您有任何问题或建议，请通过网站联系我：[https://raydenm.pages.dev](https://raydenm.pages.dev)
+If you have any questions or suggestions, feel free to reach out through my website: [https://raydenm.pages.dev](https://raydenm.pages.dev)
