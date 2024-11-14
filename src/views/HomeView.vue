@@ -15,7 +15,7 @@ import ThemeButton from '@/layouts/ThemeButton.vue'
           Vue Enterprise Boilerplate
         </h1>
         <p
-          className="mt-10 font-light max-w-2xl text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl"
+          className="mt-10 mb-6 font-light max-w-2xl text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl"
         >
           基于 Vue 和 Vite
           的前端脚手架，旨在提高开发效率和代码规范性，提供了多个集成工具和库，帮助开发者快速搭建现代化前端应用。通过集成的工具链，开发者可以实现自动化的代码格式化、类型检查、组件库展示、自动导入等功能，为前端开发提供了一个一致、高效的开发环境。
@@ -46,7 +46,7 @@ import ThemeButton from '@/layouts/ThemeButton.vue'
         <div
           v-for="(item, index) in FEATURES_LIST"
           :key="index"
-          className="flex flex-col items-center justify-center text-center"
+          className="flex flex-col items-center justify-start text-center"
         >
           <div
             className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-primary-100 p-1.5 text-blue-700 dark:bg-primary-900 lg:h-12 lg:w-12"

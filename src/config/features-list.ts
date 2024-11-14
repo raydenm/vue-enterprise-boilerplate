@@ -17,19 +17,19 @@ export const FEATURES_LIST = [
   {
     title: 'Tailwind CSS',
     description:
-      '集成了 Tailwind CSS 工具包，支持快速、高度定制化的 CSS 开发，简化样式编写的流程，并且提升开发速度。',
+      '集成了 Tailwind CSS 工具包，支持快速、高度定制化的 CSS 开发，简化样式编写的流程。',
     icon: Eclipse,
   },
   {
     title: 'ESLint & Prettier',
     description:
-      'ESLint 用于代码语法检查，Prettier 用于代码格式化，确保代码风格一致性，帮助团队保持高质量的代码标准。',
+      'ESLint 用于代码语法检查，Prettier 用于代码格式化，确保代码风格一致性。',
     icon: Code,
   },
   {
     title: 'TypeScript',
     description:
-      '提供了 TypeScript 支持，增强了 JavaScript 的类型安全性，使代码更加稳定、可维护，并提供更好的开发体验。',
+      '提供了 TypeScript 支持，增强了 JavaScript 的类型安全性，使代码更加稳定、可维护。',
     icon: Type,
   },
   {
@@ -41,7 +41,7 @@ export const FEATURES_LIST = [
   {
     title: 'Storybook',
     description:
-      '集成了 Storybook，使得组件的独立开发和展示更加方便，同时也便于进行组件的可视化测试和文档编写。',
+      '集成了 Storybook，使得组件的独立开发和展示更加方便，也便于进行组件的可视化测试和文档编写。',
     icon: BookOpen,
   },
   {
